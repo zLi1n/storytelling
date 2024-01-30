@@ -1,0 +1,134 @@
+.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+}
+.createStoryHd{
+	background-color: rgba(255, 67, 67, 1);
+	font-size: 90px;
+	text-align: center;
+	margin-top: 60px;
+	padding: 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(255, 255, 244, 1);
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.cSHdDesignT, .cSHdDesignM, .cSHdDesignB, .cSHdDesignBD{
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.cSHdDesignT1, .cSHdDesignT4, .cSHdDesignT6, .cSHdDesignT10, .cSHdDesignM1, .cSHdDesignM4, .cSHdDesignM6, .cSHdDesignM10, .cSHdDesignB1, .cSHdDesignB4, .cSHdDesignB6, .cSHdDesignB10, .cSHdDesignBD1, .cSHdDesignBD4, .cSHdDesignBD6, .cSHdDesignBD10{
+	background-color: rgba(242, 255, 0, 1);
+	width:100%;
+	height: 50px;
+	padding: 30px 50px;
+}
+.cSHdDesignT3, .cSHdDesignT7, .cSHdDesignT9, .cSHdDesignT11, .cSHdDesignM3, .cSHdDesignM7, .cSHdDesignM9, .cSHdDesignM11, .cSHdDesignB3, .cSHdDesignB7, .cSHdDesignB9, .cSHdDesignB11, .cSHdDesignBD3, .cSHdDesignBD7, .cSHdDesignBD9, .cSHdDesignBD11{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	padding: 30px 50px;
+}
+.cSHdDesignT2, .cSHdDesignT5, .cSHdDesignT8, .cSHdDesignT12, .cSHdDesignM2, .cSHdDesignM5, .cSHdDesignM8, .cSHdDesignM12, .cSHdDesignB2, .cSHdDesignB5, .cSHdDesignB8, .cSHdDesignB12, .cSHdDesignBD2, .cSHdDesignBD5, .cSHdDesignBD8, .cSHdDesignBD12{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	padding: 30px 50px;
+}
+.cSHdDesignBD1, .cSHdDesignM2, .cSHdDesignB3, .cSHdDesignT4, .cSHdDesignB5, .cSHdDesignBD6, .cSHdDesignB7, .cSHdDesignM8, .cSHdDesignB9, .cSHdDesignT10, .cSHdDesignBD11, .cSHdDesignT12{
+	border-radius: 0 0 50% 50%;
+}
+.cSHdDesignB2, .cSHdDesignBD2, .cSHdDesignBD3, .cSHdDesignM4, .cSHdDesignB4, .cSHdDesignBD4, .cSHdDesignBD5, .cSHdDesignBD7, .cSHdDesignB8, .cSHdDesignBD8, .cSHdDesignBD9, .cSHdDesignM10, .cSHdDesignB10, .cSHdDesignBD10, .cSHdDesignM12, .cSHdDesignB12, .cSHdDesignBD12{
+	background-color: rgba(255, 67, 67, 0); 
+
+}
+.cSBtn{
+	background-color: rgba(255, 255, 244, 1);
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	transition-duration: 0.4s;
+	width: 190px;	
+	margin-left:auto;
+	margin-right: auto;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.cSBtn:hover{
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	color: white;
+}
+.myBookShelf{
+	margin: 30px 100px;
+}
+.bookShelf{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap: 10px;
+}
+
+.book img{
+	width: 150px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.ttl{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.chpTtl{
+	font-size: 18px;
+	text-decoration: none;
+}
+@media (max-width: 1200px) {
+.createStoryHd{
+	font-size: 70px;
+}
+.bookShelf{
+	grid-template-columns: auto auto auto auto auto;
+}
+}
+@media (max-width: 1000px) {
+.bookShelf{
+	grid-template-columns: auto auto auto auto;
+}
+}
+@media (max-width: 850px) {
+.createStoryHd{
+	font-size: 50px;
+}
+.bookShelf{
+	grid-template-columns: auto auto auto;
+}
+}
+@media (max-width: 670px) {
+.bookShelf{
+	grid-template-columns: auto auto;
+}
+}
+@media (max-width: 530px) {
+.createStoryHd{
+	font-size: 40px;
+}
+.myBookShelf{
+	margin: 30px 50px;
+}
+}
+@media (max-width: 420px) {
+.createStoryHd{
+	font-size: 30px;
+}
+.bookShelf{
+	grid-template-columns: auto;
+}
+}
+
