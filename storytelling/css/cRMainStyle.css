@@ -1,0 +1,194 @@
+.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+}
+.createStoryHd{
+	background-color: rgba(255, 67, 67, 1);
+	font-size: 90px;
+	text-align: center;
+	margin-top: 60px;
+	padding: 20px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(255, 255, 244, 1);
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.cSHdDesignT, .cSHdDesignM, .cSHdDesignB, .cSHdDesignBD{
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.cSHdDesignT1, .cSHdDesignT4, .cSHdDesignT6, .cSHdDesignT10, .cSHdDesignM1, .cSHdDesignM4, .cSHdDesignM6, .cSHdDesignM10, .cSHdDesignB1, .cSHdDesignB4, .cSHdDesignB6, .cSHdDesignB10, .cSHdDesignBD1, .cSHdDesignBD4, .cSHdDesignBD6, .cSHdDesignBD10{
+	background-color: rgba(242, 255, 0, 1);
+	width:100%;
+	height: 50px;
+	padding: 30px 50px;
+}
+.cSHdDesignT3, .cSHdDesignT7, .cSHdDesignT9, .cSHdDesignT11, .cSHdDesignM3, .cSHdDesignM7, .cSHdDesignM9, .cSHdDesignM11, .cSHdDesignB3, .cSHdDesignB7, .cSHdDesignB9, .cSHdDesignB11, .cSHdDesignBD3, .cSHdDesignBD7, .cSHdDesignBD9, .cSHdDesignBD11{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	padding: 30px 50px;
+}
+.cSHdDesignT2, .cSHdDesignT5, .cSHdDesignT8, .cSHdDesignT12, .cSHdDesignM2, .cSHdDesignM5, .cSHdDesignM8, .cSHdDesignM12, .cSHdDesignB2, .cSHdDesignB5, .cSHdDesignB8, .cSHdDesignB12, .cSHdDesignBD2, .cSHdDesignBD5, .cSHdDesignBD8, .cSHdDesignBD12{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	padding: 30px 50px;
+}
+.cSHdDesignBD1, .cSHdDesignM2, .cSHdDesignB3, .cSHdDesignT4, .cSHdDesignB5, .cSHdDesignBD6, .cSHdDesignB7, .cSHdDesignM8, .cSHdDesignB9, .cSHdDesignT10, .cSHdDesignBD11, .cSHdDesignT12{
+	border-radius: 0 0 50% 50%;
+}
+.cSHdDesignB2, .cSHdDesignBD2, .cSHdDesignBD3, .cSHdDesignM4, .cSHdDesignB4, .cSHdDesignBD4, .cSHdDesignBD5, .cSHdDesignBD7, .cSHdDesignB8, .cSHdDesignBD8, .cSHdDesignBD9, .cSHdDesignM10, .cSHdDesignB10, .cSHdDesignBD10, .cSHdDesignM12, .cSHdDesignB12, .cSHdDesignBD12{
+	background-color: rgba(255, 67, 67, 0); 
+
+}
+.cSBtn{
+	background-color: rgba(255, 255, 244, 1);
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	transition-duration: 0.4s;
+	width: 190px;	
+	margin-left:auto;
+	margin-right: auto;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.cSBtn:hover{
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	color: white;
+}
+.myBookShelf{
+	margin: 30px 100px;
+}
+.bookShelf{
+	display: grid;
+	grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+	gap: 10px;
+}
+
+.book img{
+	width: 150px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.ttl{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: rgba(73, 13, 145,1);
+	width: 100%; /* Adjusted width */
+    box-sizing: border-box;
+}
+.ttl:hover{
+	text-decoration: underline;
+
+}
+input[type=submit].ttl{
+	padding: 0;
+}
+.chpTtl{
+	font-size: 18px;
+	text-decoration: none;
+}
+.detail{
+	color: rgba(128, 122, 135,1);
+}
+.Draf{
+	padding:5px;
+	font-size: 14px;
+	border: 1px rgba(168, 50, 50, 1) solid;
+	background-color: rgba(168, 50, 50, .2);
+	border-radius: 20px;
+	display: inline;
+	margin: 5px;
+	color: rgb(102, 13, 13);
+}
+.Published{
+	padding:5px;
+	font-size: 14px;
+	border: 1px rgba(50, 168, 82, 1) solid;
+	background-color: rgba(50, 168, 82, 0.2);
+	border-radius: 20px;
+	display: inline;
+	margin: 5px;
+	color: rgb(28, 102, 13);
+}
+.Private{
+	padding:5px;
+	font-size: 14px;
+	border: 1px rgba(242, 255, 0, 1) solid;
+	background-color: rgba(242, 255, 0, .2);
+	border-radius: 20px;
+	display: inline;
+	margin: 5px;
+	color: rgb(102, 93, 13);
+}
+.Public{
+	padding:5px;
+	font-size: 14px;
+	border: 1px rgba(110, 79, 255, 1) solid;
+	background-color: rgba(110, 79, 255, 0.2);
+	border-radius: 20px;
+	display: inline;
+	margin: 5px;
+	color: rgb(13, 13, 102);
+}
+@media (max-width: 1250px) {
+.createStoryHd{
+	font-size: 70px;
+}
+.bookShelf{
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+}
+@media (max-width: 1120px) {
+.myBookShelf{
+	margin: 30px 50px;
+}
+.bookShelf{
+	grid-template-columns: 25% 25% 25% 25%;
+}
+}
+
+@media (max-width: 850px) {
+.createStoryHd{
+	font-size: 50px;
+}
+.bookShelf{
+	grid-template-columns: 33% 33% 33%;
+}
+}
+@media (max-width: 670px) {
+.bookShelf{
+	grid-template-columns: 50% 50%;
+}
+}
+@media (max-width: 530px) {
+.createStoryHd{
+	font-size: 40px;
+}
+.myBookShelf{
+	margin: 30px 50px;
+}
+}
+@media (max-width: 420px) {
+.createStoryHd{
+	font-size: 30px;
+}
+.bookShelf{
+	grid-template-columns: 250px;
+}
+}
+

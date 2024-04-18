@@ -1,0 +1,257 @@
+.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+	
+}
+.bgStyleContainer {
+	display: grid;
+	column-gap: 50%;
+	grid-template-columns: 30% auto;
+	height: 150vh;
+}
+
+.gridItem1{
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bgCloud1{
+	background-color: rgba(242, 255, 0, 1);
+	width:100%;
+	height: 200px;
+	border-radius: 0 0 50% 50%;
+}
+.bgCloud2{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 200px;
+}
+.bgCloud3{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 200px;
+}
+.bgCloud5{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 150px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud6{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 100px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloudCtn{
+	display: flex;
+}
+.bgCloud7{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud8{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 60px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud9{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud10{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 140px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud11{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud12{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 100px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud13{
+	background-color: rgba(255, 67, 67, 1); 
+	height:40px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud14{
+	background-color: rgba(110, 79, 255, 1); 
+	height:50px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.loginForm{
+	width: 80%;	
+	padding: 20px;
+	position: absolute;
+	justify-content: center;
+	background-color: rgba(248, 248, 251, 1);
+	border-radius:20px;
+	top: 75%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 10px 25px rgba(92, 99, 105, 0.5);
+}
+.loginForm form{
+	padding: 0;
+}
+.ctnDtl{
+	//border: 1px black solid;
+	margin: 0 20px;
+	background-color: rgba(172, 176, 181, .2);
+	padding: 10px;
+	border-radius: 10px;
+}
+.checkContainer{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	
+}
+.checkCustom {
+	appearance: none;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	transition: all 0.15s ease-out 0s;
+	background: #cbd1d8;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 0.5rem;
+	outline: none;
+	position: relative;
+	z-index: 1000;
+}
+.checkCustom:hover {
+	background: #9faab7;
+}
+.checkCustom:checked {
+	background: rgba(110, 79, 255, 1);
+}
+.checkCustom:checked::before {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	content: '\f00c'; 
+	font-size: 15px;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	font-family: FontAwesome;
+}
+.checkCustom:checked::after {
+	background: #40e0d0;
+	content: '';
+	display: block;
+	position: relative;
+	
+}
+.issue{
+	font-weight: bold;
+	font-size: 20px;
+	padding:10px 0;
+	cursor: pointer;
+}
+.descIssues{
+	margin: 0;
+	margin-left: 30px;
+	font-size: 18px;
+	color: #5e6063;
+	padding:10px 0;
+}
+#other{
+	width: 100%;
+	padding: 10px;
+	margin: 4px 0 15px 0;
+	border: 1px solid white;
+	box-sizing: border-box;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: transform 1s linear;
+	
+}
+.edit {
+	background-color: rgba(110, 79, 255, 1);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.edit:hover {
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	transform: translateY(-2px);
+}
+
+.editForm form {
+	width: 80%;	
+}
+
+.editForm *{
+	padding:10px 0;
+}
+.red{
+	color: red;
+}
+.required{
+	color: red;
+	float: right;
+	padding: 0;
+}
+.errMsg{
+	color:red;
+	font-size:16px;
+}
+.errMsg .material-symbols-outlined{
+	padding:0 1px;
+	font-size: 16px;
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 600,
+	'GRAD' 0,
+	'opsz' 48
+}
+@media screen and (max-width: 800px) {
+.bgStyleContainer {
+	column-gap: 20%;
+}
+}
+@media screen and (max-width: 650px) {
+.loginForm{
+	width: 90%;	
+}
+.loginForm *{
+	padding:8px ;
+}
+
+.loginForm .loginContent input[type=submit] {
+	font-size:15px;
+}
+
+}
+@media screen and (max-width: 500px) {
+.loginForm{
+	width: 100%;	
+}
+}
+@media screen and (max-width: 315px) {
+
+}

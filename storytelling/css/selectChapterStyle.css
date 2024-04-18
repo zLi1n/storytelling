@@ -1,0 +1,186 @@
+.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+	
+}
+.chapterContainer{
+	margin: 70px auto 10px auto;
+	width: 60%;
+	background-color: rgba(242, 255, 0, 0.2);
+	padding: 20px 40px;
+	padding: 20px;
+	font-size: 20px;
+	min-height: 50vh;
+	display: grid;
+	grid-template-columns: auto;
+}
+.chapterContainer form{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.chapterContainer input[type="submit"]{
+	padding: 10px;
+	background-color: rgba(110, 79, 255, 1);
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 60%;
+}
+.chapterContainer input[type="submit"]:hover{
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	transform: translateY(-2px);
+}
+.noChap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dropdown {
+	position: fixed;
+	top: 80%;
+	right: 10%;
+	z-index: 20;
+	display: show;
+}
+.plusBtn {
+	background-color: rgba(255, 67, 67, .8);
+	color: white;
+	width: 50px;
+	height: 50px;
+	//padding: 20px;
+	font-size: 25px;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.plusBtn:hover{
+	background-color: rgba(255, 67, 67, 1);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	transform: scale(1.2, 1.2);
+}
+.storyNav {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	right: 0;
+	z-index: 1;
+	bottom: 100%;
+	margin-bottom: 10px;
+}
+
+.show {
+	display: block;
+}
+.storyNav form {
+	display: block;
+	text-align: center;
+	margin: 0;
+	transition: all 0.3s ease;
+}
+.storyNav a, .storyNav button,
+.storyNav input[type="submit"] {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	font-size: 18px; 
+	color: black;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ .storyNav button{
+	width: 100%;
+	border: none;
+ }
+.storyNav input[type="submit"] {
+	border: none;
+	background: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.storyNav a:hover, .storyNav button:hover,
+.storyNav input[type="submit"]:hover {
+	background-color: #ddd; 
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	background-color: rgba(241, 243, 248, 1);
+	overflow-x: hidden;
+	overflow-y: scroll;
+	transition: 0.5s;
+	padding-top: 60px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 15px 30px 0 rgba(0,0,0,0.19); 
+}
+.sidenav form{
+	margin: 0;
+}
+.sidenav input[type=submit]{
+	padding: 8px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: rgba(110, 79, 255, 0);
+	color: black;
+	display: block;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+}
+
+.sidenav input[type=submit]:hover{
+	color: white;
+	background-color: rgba(110, 79, 255, 1);
+}
+.sidenav a:hover {
+	color: rgba(110, 79, 255, 1);
+}
+.sidenav .chapTxt{
+	margin-left: 20px;
+	font-size: 25px;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 40px;
+	
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+
+
+@media (max-width: 520px) {
+
+}
+@media (max-width: 520px) {
+
+}
+@media (max-width: 420px) {
+
+}
+@media (max-width: 380px) {
+
+}
+@media (max-width: 330px) {
+
+}

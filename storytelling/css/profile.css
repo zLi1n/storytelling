@@ -1,0 +1,327 @@
+.slidebar{
+	height: 90vh;
+	width: 250px;
+	margin-top: 60px; 
+	background: rgba(115, 114, 122, 1);
+	padding-top: 15px;
+	overflow-x: hidden;
+	position: absolute;
+}
+.slidebar h1{
+	color: white;
+	font-size: 28px;
+	text-align: center;
+}
+
+.slidebar a{
+	padding: 10px 15px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 20px;
+	color:black;
+	display:block;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	background: rgb(223, 227, 230);
+}
+.slidebar a:hover{
+	background-color: rgba(110, 79, 255, 1);
+	color: white;
+}
+a.active{
+	background-color: rgb(116, 121, 163);
+	color: white;
+}.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+	
+}
+.bgStyleContainer {
+  display: grid;
+  column-gap: 30%;
+  grid-template-columns: 30% auto;
+}
+
+.gridItem1{
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bgCloud1{
+	background-color: rgba(242, 255, 0, 1);
+	width:100%;
+	height: 200px;
+	border-radius: 0 0 50% 50%;
+}
+.bgCloud2{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 200px;
+}
+.bgCloud3{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 200px;
+}
+.bgCloud5{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 150px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud6{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 100px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloudCtn{
+	display: flex;
+}
+.bgCloud7{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud8{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 60px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud9{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud10{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 140px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud11{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud12{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 100px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud13{
+	background-color: rgba(255, 67, 67, 1); 
+	height:40px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud14{
+	background-color: rgba(110, 79, 255, 1); 
+	height:50px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.loginForm{
+	width: 35%;	
+	padding: 20px;
+	position: absolute;
+	justify-content: center;
+	background-color: rgba(248, 248, 251, 1);
+	border-radius:20px;
+	top: 50%;
+	left:55%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 10px 25px rgba(92, 99, 105, 0.5);
+}
+.loginForm form{
+	padding: 0;
+}
+.loginForm *{
+	padding:10px 0;
+}
+.userDetail{
+	display: flex;
+}
+.avatar {
+	width: 200px;
+	height: 200px;
+}
+.detail{
+	margin-left: 20px;
+	width: 100%;
+}
+.detail p{
+	margin: 0;
+	font-size: 20px;
+}
+.signature{
+	background-color: white;
+}
+.edit {
+	background-color: rgba(110, 79, 255, 1);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.edit:hover {
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	transform: translateY(-2px);
+}
+.logout {
+	background-color: rgba(255, 67, 67, .8);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.logout:hover {
+	background-color: rgba(255, 67, 67, 1);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	transform: translateY(-2px);
+}
+.editForm form {
+	width: 80%;	
+}
+
+.editForm *{
+	padding:10px 0;
+}
+.editForm h1{
+	text-align:center;
+	font-size:36px;
+	margin-top: 0;
+}
+.editForm label{
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+
+.editForm input[type=text], .editForm input[type=date]{
+	width: 100%;
+	padding: 10px;
+	margin: 4px 0 15px 0;
+	border: 1px solid white;
+	box-sizing: border-box;
+	font-size: 18px;
+	border-radius: 10px;
+	transition: transform 1s linear;
+}
+input[type="file"] {
+  position: relative;
+  margin: 5px;
+  font-size: 20px;
+  width: 100%;
+}
+
+input[type="file"]::file-selector-button {
+  width: 160px;
+  color: transparent;
+}
+
+input[type="file"]::before {
+  position: absolute;
+  pointer-events: none;
+  top: 20px;
+  left: 16px;
+  height: 20px;
+  width: 20px;
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230964B0'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
+}
+
+input[type="file"]::after {
+  position: absolute;
+  pointer-events: none;
+  top: 20px;
+  left: 40px;
+  color: #0964b0;
+  content: "Upload File";
+}
+
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+.red{
+	color: red;
+}
+.required{
+	color: red;
+	float: right;
+	padding: 0;
+}
+.errMsg{
+	color:red;
+	font-size:16px;
+}
+.errMsg .material-symbols-outlined{
+	padding:0 1px;
+	font-size: 16px;
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 600,
+	'GRAD' 0,
+	'opsz' 48
+}
+@media screen and (max-width: 1000px) {
+	.loginForm{
+	width: 50%;	
+}
+}
+@media screen and (max-width: 650px) {
+.loginForm{
+	width: 60%;	
+}
+.loginForm *{
+	padding:8px ;
+}
+
+.loginForm .loginContent input[type=submit] {
+	font-size:15px;
+}
+
+}
+@media screen and (max-width: 500px) {
+.loginForm{
+	width: 90%;	
+}
+}
+@media screen and (max-width: 315px) {
+.loginForm{
+	width: 100%;	
+}
+.loginForm *{
+	padding:5px 1px;
+}
+.loginForm .loginContent input[type=submit] {
+	font-size:13px;
+}
+}

@@ -1,0 +1,236 @@
+.homepage{
+	background-color: rgba(255, 255, 244, 0.5);
+	
+}
+.bgStyleContainer {
+  display: grid;
+  column-gap: 30%;
+  grid-template-columns: 30% auto;
+}
+
+.gridItem1{
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+.bgCloud1{
+	background-color: rgba(242, 255, 0, 1);
+	width:100%;
+	height: 200px;
+	border-radius: 0 0 50% 50%;
+}
+.bgCloud2{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 200px;
+}
+.bgCloud3{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 200px;
+}
+.bgCloud5{
+	background-color: rgba(110, 79, 255, 1);
+	width:100%;
+	height: 150px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud6{
+	background-color: rgba(255, 67, 67, 1); 
+	width:100%;
+	height: 100px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloudCtn{
+	display: flex;
+}
+.bgCloud7{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud8{
+	background-color: rgba(110, 79, 255, 1); 
+	height:100px;
+	width: 60px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud9{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud10{
+	background-color: rgba(242, 255, 0, 1); 
+	height:100px;
+	width: 140px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud11{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 30%;
+}
+.bgCloud12{
+	background-color: rgba(255, 67, 67, 1); 
+	height:100px;
+	width: 100px;
+    border-radius: 0 50% 50% 0;
+}
+.bgCloud13{
+	background-color: rgba(255, 67, 67, 1); 
+	height:40px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.bgCloud14{
+	background-color: rgba(110, 79, 255, 1); 
+	height:50px;
+	width: 50px;
+    border-radius: 0 0 50% 50%;
+}
+.loginForm{
+	width: 35%;	
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	background-color: rgba(248, 248, 251, 1);
+	border-radius:20px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 10px 25px rgba(92, 99, 105, 0.5);
+}
+.loginForm form{
+	width: 80%;	
+}
+.loginForm *{
+	padding:10px 0;
+}
+.loginForm h1{
+	text-align:center;
+	font-size:36px;
+}
+.loginForm label{
+	font-size:24px;
+}
+
+.loginForm .loginContent input[type=text],.loginForm input[type=password] {
+	width: 100%;
+	padding:20px;
+	margin: 8px 0;
+	border: 1px solid white;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: transform 1s linear;
+}
+
+.loginForm .loginContent input[type=submit] {
+	background-color: rgba(110, 79, 255, 1);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.loginForm .loginContent input[type=submit]:hover {
+	background-color: rgba(12, 125, 237,0.9);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	transform: translateY(-2px);
+}
+
+.loginForm .loginContent span.psw {
+	float: right;
+}
+.loginForm .loginContent .createAcc{
+	text-align:center;
+}
+.loginForm .loginContent a:visited {
+	color:blue;
+}
+.loginForm .loginContent a:active, .loginForm .loginContent a:hover {
+	color:red;
+}
+.errMsg{
+	color:red;
+	font-size:16px;
+}
+.errMsg .material-symbols-outlined{
+	padding:0 1px;
+	font-size: 16px;
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 600,
+	'GRAD' 0,
+	'opsz' 48
+}
+@media screen and (max-width: 1000px) {
+	.loginForm{
+	width: 50%;	
+}
+}
+@media screen and (max-width: 650px) {
+.loginForm{
+	width: 60%;	
+}
+.loginForm *{
+	padding:8px ;
+}
+.loginForm h1{
+	font-size:30px;
+}
+.loginForm label{
+	font-size:18px;
+}
+
+.loginForm .loginContent input[type=text],.loginForm input[type=password] {
+	font-size:15px;
+}
+
+.loginForm .loginContent input[type=submit] {
+	font-size:15px;
+}
+.loginForm .loginContent span.psw {
+	font-size:12px;
+}
+.loginForm .loginContent .createAcc{
+	font-size:12px;
+}
+}
+@media screen and (max-width: 500px) {
+.loginForm{
+	width: 90%;	
+}
+}
+@media screen and (max-width: 315px) {
+.loginForm{
+	width: 100%;	
+}
+.loginForm *{
+	padding:5px 1px;
+}
+.loginForm h1{
+	font-size:28px;
+}
+.loginForm label{
+	font-size:16px;
+}
+
+.loginForm .loginContent input[type=text],.loginForm input[type=password] {
+	font-size:13px;
+}
+
+.loginForm .loginContent input[type=submit] {
+	font-size:13px;
+}
+.loginForm .loginContent span.psw {
+	font-size:11px;
+}
+.loginForm .loginContent .createAcc{
+	font-size:11px;
+}
+}

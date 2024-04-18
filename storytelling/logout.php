@@ -1,0 +1,9 @@
+<?php
+session_start();
+session_destroy();?>
+<script>
+sessionStorage.clear();
+</script>
+<?php
+header("location:homepage.php");
+?>
